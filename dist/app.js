@@ -213,8 +213,8 @@ var ProjectList = /** @class */ (function (_super) {
                 return prj.status === ProjectStatus.Finished;
             });
             _this.assignedProjects = relevantProjects;
-            _this.renderContent();
         });
+        this.renderContent();
     };
     ProjectList.prototype.renderContent = function () {
         var listId = this.type + "-projects-list";

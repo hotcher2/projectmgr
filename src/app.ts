@@ -281,8 +281,8 @@ class ProjectList
         return prj.status === ProjectStatus.Finished;
       });
       this.assignedProjects = relevantProjects;
-      this.renderContent();
     });
+    this.renderContent();
   }
 
   renderContent() {
